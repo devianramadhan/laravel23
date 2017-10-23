@@ -14,3 +14,15 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('contact', function () {
+    return view('contact');
+});
+
+Route::get('percakapan', function () {
+    return view('percakapan');
+});
+
+Route::post('percakapan/kirim', function () {
+    return view('pesan_kirim');
+});

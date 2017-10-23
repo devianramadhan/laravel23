@@ -79,14 +79,13 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+					Percakapan
                 </div>
-
+					{!! Form::open(array('url' => 'percakapan/kirim','method' => 'POST')) !!}
                 <div class="links">
-					<a href="pesan">Pesan</a>
-					<a href="about">About</a>
-					<a href="percakapan">Percakapan</a>
-					<a href="contact">Contact</a>
+					<strong> Percakapan </strong>
+					{!! Form::text('pesan', null, array('placeholder' => 'Tuliskan pesan','class' => 'form-control')) !!}
+					<button type="submit" class="btn-btn-primary"> Kirim </button>
                 </div>
             </div>
         </div>

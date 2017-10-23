@@ -79,14 +79,13 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+					Contact
                 </div>
-
+				<div>
+					Contact saya : devianramadhan@rocketmail.com
+				</div>
                 <div class="links">
-					<a href="pesan">Pesan</a>
-					<a href="about">About</a>
-					<a href="percakapan">Percakapan</a>
-					<a href="contact">Contact</a>
+					<br><a href="/"> Home </a> <!-- membuat tombol untuk kembali ke welcome -->
                 </div>
             </div>
         </div>
